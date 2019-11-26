@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lapintaika</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="ravintola.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <div id="palaute">
+    <h1>Palaute</h1>
+    <div id="navbutton">
+            <nav><p><a class="navbutton" href="ravintola.html">Takaisin ravintolan sivuille</a></p>
+    </nav>   
+</div>
+    <form action="palaute.html" method="post">
+           <p> Päivämäärä jona kävit ravintolassa: <input type="date" name="date" maxlength=30>
+</p>
+          <p>  Kuinka kauan jouduit odottamaan ruokaa?:  <input type="time" name="wait" maxlength=30>
+  </p>         
+        <p><h3>Millaista ruoka oli:</h3>
+            <h4>Maultaan</h4>
+           <p> <input type="radio" name="taste" value="good">Hyvää<br></p>
+           <p> <input type="radio" name="taste" value="ok">Keskivertoa<br></p>
+           <p> <input type="radio" name="taste" value="bad" checked>Pahaa<br></p>
+       </p>     
+
+          <p> <h4>Lämpötilaltaan</h4>
+            <p> <input type="radio" name="heat" value="good">Kuumaa<br></p>
+            <p> <input type="radio" name="heat" value="ok">Sopivaa<br></p>
+            <p> <input type="radio" name="heat" value="bad" checked>Kylmää<br></p>
+     </p>
+
+           <p> <h4>Ulkonäöltään</h4>
+             <p> <input type="radio" name="look" value="good">Houkutteleva<br></p>
+             <p> <input type="radio" name="look" value="ok">Normaali<br></p>
+             <p> <input type="radio" name="look" value="bad" checked>Ruma<br></p>
+   </p>
+
+               <p><h4>Hinnaltaan</h4>
+                 <p> <input type="radio" name="cost" value="good">Halpaa<br></p>
+                 <p> <input type="radio" name="cost" value="ok">Sopivan hintaista<br></p>
+                 <p> <input type="radio" name="cost" value="bad" checked>Kallista<br></p>
+       </p> 
+             <p><h3>Millaista palvelu oli:</h3>
+               <p> <input type="radio" name="service" value="good">Hyvää<br></p>
+               <p> <input type="radio" name="service" value="ok">Keskivertoa<br></p>
+               <p> <input type="radio" name="service" value="bad" checked>Huonoa<br></p>
+           </p>
+
+           <p><h2>Vapaan palautteen kenttä</h2></p>
+           <p>Voit jättää tähän muuta palautetta.</p>
+           <textarea name="message" rows="5" cols="30">
+                </textarea>
+
+                <p> <fieldset>
+                        <legend>Henkilötiedot</legend>
+                        Nimi: <input type="text"><br>
+                        Puhelinnumero: <input type="text"><br>
+                      </fieldset></p>
+                      
+      <p> <input type="submit" value="Lähetä"></p>
+    </form>
+</div>
+    </body>

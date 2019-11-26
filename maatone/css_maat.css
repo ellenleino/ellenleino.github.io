@@ -1,0 +1,130 @@
+.style {
+    background-color: lightblue;
+}
+#header {
+    background-color: plum;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbutton {
+    display: flex;
+    padding: 8px;
+    background-color:orange;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+}
+#info {
+    width: 90%;
+    display: flex;
+    padding: 10px;
+    background-color: lightskyblue;
+    border-style: solid;
+    border-width: 1px; 
+    margin:20px;
+}
+.next {
+    display: flex;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+#maantiede {
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    background-color: lavender;
+    border-style: solid;
+    border-radius: 5px;
+    margin:20px;
+    text-align: center;
+
+}
+#luonto {
+    display: flex;
+    width: 90%;
+    background-color: coral;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin:20px;
+    text-align: center;
+    
+}
+
+#cities, table, td {
+    display: flex;
+    padding: 10px;
+    background-color: lightseagreen;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#perus {
+    display: flex;
+    background-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.viereen {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+#nature {
+    display: flex;
+    background-color: violet;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    height: 80%;
+    width:50%;
+    margin: 15px;
+}
+
+#food {
+    display: flex;
+    background-color: lightcyan;
+    border-width: 5px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.leipä {
+    display: flex;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+#sport {
+    display: flex;
+    background-color: lightgreen;
+    border-width: 5px;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    margin: 20px;
+}
+
+html {
+    background: lightpink;
+  }

@@ -1,0 +1,79 @@
+
+.item1 { grid-area: header; }
+.item2 { grid-area: nav; }
+.item3 { grid-area: section; }
+.item4 { grid-area: article; }
+.item5 { grid-area: footer; }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.item1, .item2, .item3, .item4 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item5 {
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#palaute {
+  display: inline-block;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    background-color: lavender;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 70%;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px){
+  body {
+    background: url("https://images.pexels.com/photos/51115/restaurant-wine-glasses-served-51115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'nav nav nav section section section'
+      'article article article article article article'
+      'footer footer footer footer footer footer';
+    grid-gap: 5px;
+    padding: 10px;
+  }
+ .grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'nav nav nav section section section'
+    'article article article article article article'
+    'footer footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: lightpink;
+  padding: 10px;
+  width: 60%;
+  margin-left: 20%;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    padding: 10px;
+    font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+  body {
+    width: 320px;
+  }
+}
